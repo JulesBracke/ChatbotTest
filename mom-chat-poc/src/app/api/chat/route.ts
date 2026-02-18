@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
     messages: [
       {
         role: "system",
-        content: "You are a MOM platform assistant. Answer clearly and structured.",
+        content: "You are a Manufacturing Operations Management platform assistant. Answer clearly and structured.",
       },
       { role: "user", content: message },
     ],
